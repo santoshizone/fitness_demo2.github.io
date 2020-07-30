@@ -1,0 +1,442 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+/*---------------------navigationbar-----------------------*/
+
+
+
+#navbar1 ul li {
+	margin-left: 10px;
+}
+ #navbar1 ul li a{
+	color: red;
+}
+
+#navbar1 ul li a:hover{
+	color: orange;
+}
+
+#navbar1 ul .active{
+	color: orange;
+}
+
+nav{
+	border: none;
+	border-bottom: 3px solid orange;
+}
+
+
+
+.nav_btn1{
+	width: 150px;
+	height: 50px;
+	background-color: orange;
+	color: white;
+	font-size: 12px;
+	
+}
+
+/*----------------------------carousal1------------------*/
+
+
+.carousal1_p1{
+	font-size: 50px;
+	color: white;
+	
+	margin-left: -80px;
+	margin-top: -500px;
+	text-align: justify;
+}
+
+.carousel-inner img {
+      width: 100%;
+      height:auto;
+  }
+
+.carousal1_btn1{
+	               width: 200px;
+	               height: 50px;
+	               background-color: orange;
+	               color:white;
+	               font-size: 17px;
+
+                }
+
+
+      .carousal1{
+           font-size: 16px;
+           font-style: italic;
+           color: #64677c;
+              }
+
+#demo{
+  text-align: center;
+}
+
+/*-------------------------section2------------------------*/
+
+
+
+.section2{
+  	       background-color: #1d1f2a;
+  	       padding: 40px;
+
+            }
+
+  .sec2_h5{
+  	       color: white;
+  	       padding-top: 20px;
+           }
+  .sec2_p1{
+  	       color: grey;
+  	       font-size: 14px;
+
+          }
+
+
+/*-----------------------image_box--------------------*/
+
+
+.image_box_p1{
+  font-size: 15px;
+  color: grey;
+  margin-top: 30px;
+
+
+}
+
+.image_box_div1{
+  border: 10px solid red;
+  width: 300px;
+  height: auto;
+  margin-left: 100px;
+  background-color: white;
+}
+
+
+.image_box_div2{
+  border: 10px solid red;
+  width: 300px;
+  height: auto;
+  margin-left: 50px;
+  background-color: black;
+
+}
+.image_box_div3{
+  border: 10px solid red;
+  width: 300px;
+  height: auto;
+
+  background-color: white;
+
+
+}
+
+.image-box {
+  position: relative;
+}
+
+
+.image-box__background,
+.image-box__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.image-box__background {
+  background: var(--image-url) center center no-repeat;
+  background-size: cover;
+
+  z-index: 1
+}
+
+
+.image-box__overlay {
+  background: rgba(0, 0, 0, 0.5);
+
+  z-index: 2;
+}
+
+.image-box__content {
+              position: relative;
+
+                  z-index: 3;
+               color: white;
+                  min-height: 100vh;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                }
+
+
+
+
+
+
+  .image_box_btn1{
+  	               width: 200px;
+	                   height: 50px;
+	               background-color: orange;
+	               color:white;
+	               font-size: 17px;
+	               margin-top: 20px;
+	               margin-bottom: 30px;
+               }
+
+
+/*-----------------------------section3-----------------------------*/
+
+
+  .sec3_btn1{
+
+               width: 200px;
+                height: 50px;
+                 background-color: orange;
+                 color:white;
+                  font-size: 17px;
+                  margin-top: 20px;
+                 margin-bottom: 30px;
+                  }
+  
+
+  .sec3_h1{
+  	       font-size: 50px;
+  	       padding-left: 60px;
+  	       padding-top: 30px;
+  	       color: black;
+          }
+
+  .sec3_box1{
+  	           width: 30px;
+  	           height: 30px;
+  	           border-radius: 50%;
+  	           border: 1px solid orange;
+               margin-top: -20px;
+              }
+
+              .sec3_box1_p2{
+                margin-left: 30px;
+                margin-top: -25px;
+              }
+
+  .sec3_p1{
+  	       padding-left: 60px;
+          }
+
+  .sec3_img1{
+  	           padding-left: 60px;
+               margin-top: 40px;
+              }
+
+  .section3{
+  	       color: #64677c;
+  	       font-size: 14px;
+          }
+
+
+
+/*-----------------------------section4--------------*/
+
+
+  .section4{
+  	       background-color: #1d1f2a;
+  	       padding-top: 50px;
+            }
+
+
+
+  /*---------------------------carousal2--------------------------*/
+
+  .head{
+  	       font-size: 50px;
+  	       padding-top: 50px;
+        }
+  
+
+
+
+  .carousal2_p1{
+                background-color: white;
+                  }
+.carousal2_p2{
+	           color: #64677c;
+            }
+
+.carousal2_p2 a:hover{
+	                   text-decoration: none;
+                   }
+            
+
+/*---------------section5----------------------*/
+
+
+.section5{
+  background-color: #ff9908;
+  padding: 20px;
+
+  
+ 
+}
+
+.sec5_h1{
+  font-size: 50px;
+ color: white;
+  font-weight: bold;
+  
+}
+.section5 a{
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.section5 a:hover{
+  color: red;
+}
+
+/*-----------------------------footer-----------------------*/
+
+.footer{
+  background-color: black;
+  margin-top: -10px;
+}
+
+.footer1{
+  padding-top: 40px;
+}
+
+.foot_p1{
+  color: grey;
+  font-size: 14px;
+}
+
+.foot_p2 a{
+  color: grey;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.foot_p2 a:hover{
+  color: orange;
+  text-decoration: none;
+}
+
+.foot_icon{
+  margin-left: 50px;
+}
+
+
+.icon1{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+  color: white;
+  padding-left: 5px;
+}
+.icon2{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+  margin-left: 40px;
+  margin-top: -30px;
+  color: white;
+  padding-left: 5px;
+}
+.icon3{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  margin-left: 80px;
+  margin-top: -30px;
+  color: white;
+  padding-left: 5px;
+}
+.icon4{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+  margin-left: 120px;
+  margin-top: -30px;
+  color: white;
+  padding-left: 5px;
+}
+
+.icon1:hover{
+  background-color: orange;
+}
+
+.icon2:hover{
+  background-color: orange;
+}
+.icon3:hover{
+  background-color: orange;
+}
+.icon4:hover{
+  background-color: orange;
+}
+
+
+
+
+/*--bottom to top button--*/
+
+
+
+ #myBtn2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:black; /* Set a background color */
+  color: orange; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn2:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+
+
+
+/*---------------------mediascreen------------------*/
+
+  @media screen and (max-width:800px){
+    .carousal1_p1{
+      margin-left: 30px;
+    }
+    .image_box_div1{
+      margin-left: 20px;
+    }
+    .image_box_div2{
+      margin-left: 20px;
+    }
+    .image_box_div3{
+      margin-left: 20px;
+    }
+    .sec5_h1{
+      font-size: 25px;
+      
+    }
+  }
